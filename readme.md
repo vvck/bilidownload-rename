@@ -130,6 +130,3 @@ if __name__ == "__main__" :
     else :
         print("输入路径错误！！")
 ```
-
-## github
-
