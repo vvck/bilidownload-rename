@@ -11,6 +11,7 @@ def findname(path):
         load_dict = json.load(load_f)
         partno = load_dict['PartNo']
         partname = load_dict['PartName']
+        partname = partname.replace('/', '-')
         print(type(partname))
         return partno,partname
         
